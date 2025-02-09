@@ -1,0 +1,55 @@
+package com.nvminh162.Hibernate01.model;
+
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.List;
+
+public class DonHang {
+	private int id;
+	private String tenKH;
+	private Date ngayMua;
+	private List<ChiTietDonHang> dsCT = new ArrayList<ChiTietDonHang>();
+	
+	public DonHang() {}
+
+	public DonHang(int id, String tenKH, Date ngayMua, List<ChiTietDonHang> dsCT) {
+		this.id = id;
+		this.tenKH = tenKH;
+		this.ngayMua = ngayMua;
+		this.dsCT = dsCT;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getTenKH() {
+		return tenKH;
+	}
+
+	public void setTenKH(String tenKH) {
+		this.tenKH = tenKH;
+	}
+
+	public Date getNgayMua() {
+		return ngayMua;
+	}
+
+	public void setNgayMua(Date ngayMua) {
+		this.ngayMua = ngayMua;
+	}
+
+	public List<ChiTietDonHang> getDsCT() {
+		return dsCT;
+	}
+
+	public void setDsCT(List<ChiTietDonHang> dsCT) {
+		this.dsCT = dsCT;
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+# Created at 2025-02-08T20:32:31.872
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Workspace\courses\hibernate\Hibernate01\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

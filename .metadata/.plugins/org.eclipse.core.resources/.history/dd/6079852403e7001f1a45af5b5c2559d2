@@ -1,0 +1,16 @@
+package com.nvminh162.Hibernate01.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ChiTietDonHang {
+	private int id;
+	private String tenSP;
+	private int soLuong;
+	private double giaBan; 
+	private double thanhTien;
+	
+	private List<ChiTietDonHang> dsCT = new ArrayList<ChiTietDonHang>();
+	
+	
+}

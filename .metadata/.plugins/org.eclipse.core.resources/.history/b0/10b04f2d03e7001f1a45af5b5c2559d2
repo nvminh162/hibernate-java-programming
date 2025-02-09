@@ -1,0 +1,13 @@
+package com.nvminh162.Hibernate01.model;
+
+public class ChiTietDonHang {
+	private int id;
+	private String tenSP;
+	private int soLuong;
+	private double giaBan; 
+	private double thanhTien;
+	
+	
+	
+	
+}

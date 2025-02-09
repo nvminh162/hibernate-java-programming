@@ -1,0 +1,11 @@
+package com.nvminh162.Hibernate01.model;
+
+import java.sql.Date;
+
+public class DonHang {
+	private int id;
+	private String tenKH;
+	private Date ngayMua;
+	
+	
+}
